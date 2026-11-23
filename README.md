@@ -1,52 +1,6 @@
-# Ruang Tugas
-
-Aplikasi frontend to-do list menggunakan React.js dan Vite. Desain tabel sederhana mengikuti referensi Kuis.pdf dengan latar putih, header hijau muda, dan tombol hijau.
-
-## Menjalankan
-
-Memerlukan Node.js 20.19+ atau 22.12+ dan npm.
-
-```sh
-npm install
-npm run dev
-```
-
-Buka alamat Local yang dicetak Vite. Untuk produksi:
-
-```sh
-npm run build
-npm run preview
-```
-
-## Fitur
-
-- Daftar dan detail tugas dengan seluruh atribut: `id`, `title`, `description`, `priority`, `deadline`, `status`.
-- Tambah dan ubah tugas melalui formulir dengan validasi.
-- Hapus tugas dengan konfirmasi, serta notifikasi hasil operasi.
-- Ubah status melalui formulir ubah tugas pada dialog detail.
-- Kolom Judul, Status, Prioritas, Deadline, dan Aksi.
-- Tabel dapat digeser horizontal pada layar kecil.
-- React State memperbarui tampilan tanpa reload; localStorage menyimpan data antar-kunjungan.
-- Dialog native dengan dukungan Escape, navigasi keyboard, dan fokus.
-
-Empat data awal mengikuti judul, prioritas, tenggat, dan status pada screenshot Kuis.pdf. Deskripsi Computer Vision mengikuti halaman detail; deskripsi tiga tugas lainnya merupakan pelengkap dummy. Label `high/low` dan `in progress/to-do` ditampilkan dalam bahasa Indonesia sebagai `Tinggi/Rendah` dan `Dikerjakan/Belum mulai`.
-
-Tidak ada backend atau pemanggilan REST API. Untuk integrasi berikutnya, gunakan struktur tugas yang sama dan pindahkan operasi state ke lapisan layanan API. Data lokal terpisah untuk setiap browser/origin. Jika penyimpanan browser diblokir, aplikasi memberi peringatan dan tetap dapat digunakan pada sesi aktif.
-
-## Struktur
-
-```text
-src/main.jsx       Komponen React, data dummy, state, dan operasi tugas
-src/style.css      Token visual, komponen, dan layout responsif
-index.html         Entry point
-.openai/hosting.json  Konfigurasi hosting statis
-```
-
-## Verifikasi
-
-Build produksi berhasil melalui Vite. Alur tambah, detail, ubah, persistensi setelah reload, dan hapus telah diuji di browser. Tampilan ponsel diperiksa tanpa overflow horizontal. Dokumentasi ini tidak menyatakan bahwa repositori GitHub telah dibuat atau tugas telah dikumpulkan.
-
-## Screenshot
-
-![Dashboard Ruang Tugas](docs/dashboard.png)
-
+![alt text](screenshoot_aplikasi/image.png)
+![alt text](screenshoot_aplikasi/image-1.png)
+![alt text](screenshoot_aplikasi/image-2.png)
+![alt text](screenshoot_aplikasi/image-3.png)
+![alt text](screenshoot_aplikasi/image-4.png)
+![alt text](screenshoot_aplikasi/image-5.png)
