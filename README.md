@@ -1,6 +1,6 @@
 # Ruang Tugas
 
-Aplikasi frontend to-do list menggunakan React.js dan Vite. Desain mengadaptasi panduan `design (3).md`: latar krem, hijau hutan, aksen sage, tipografi DM Sans, kartu membulat, dan tata letak responsif.
+Aplikasi frontend to-do list menggunakan React.js dan Vite. Desain tabel sederhana mengikuti referensi Kuis.pdf dengan latar putih, header hijau muda, dan tombol hijau.
 
 ## Menjalankan
 
@@ -23,9 +23,9 @@ npm run preview
 - Daftar dan detail tugas dengan seluruh atribut: `id`, `title`, `description`, `priority`, `deadline`, `status`.
 - Tambah dan ubah tugas melalui formulir dengan validasi.
 - Hapus tugas dengan konfirmasi, serta notifikasi hasil operasi.
-- Tandai selesai dan buka kembali tugas.
-- Pencarian judul/deskripsi, filter status/prioritas, dan pengurutan.
-- Tampilan kartu/daftar, ringkasan progres, indikator tenggat dan keterlambatan.
+- Ubah status melalui formulir ubah tugas pada dialog detail.
+- Kolom Judul, Status, Prioritas, Deadline, dan Aksi.
+- Tabel dapat digeser horizontal pada layar kecil.
 - React State memperbarui tampilan tanpa reload; localStorage menyimpan data antar-kunjungan.
 - Dialog native dengan dukungan Escape, navigasi keyboard, dan fokus.
 
@@ -49,3 +49,4 @@ Build produksi berhasil melalui Vite. Alur tambah, detail, ubah, persistensi set
 ## Screenshot
 
 ![Dashboard Ruang Tugas](docs/dashboard.png)
+
